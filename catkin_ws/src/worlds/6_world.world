@@ -14159,30 +14159,6 @@
       </model>
 
 
-      <model name='my_robot'>
-        <pose frame=''>-5e-06 -0.002391 0.099995 -2e-06 0.000281 0.000499</pose>
-        <scale>1 1 1</scale>
-        <link name='left_wheel'>
-          <pose frame=''>-6.7e-05 0.122609 0.099994 -2e-06 5.3e-05 0.000499</pose>
-          <velocity>0.002453 0.000519 -0.005922 -0.005806 0.024536 3e-06</velocity>
-          <acceleration>-1.1e-05 0.010914 -9.68116 -0.728301 0.001962 5.2e-05</acceleration>
-          <wrench>-5.6e-05 0.05457 -48.4058 0 -0 0</wrench>
-        </link>
-        <link name='right_wheel'>
-          <pose frame=''>5.7e-05 -0.127391 0.099995 -2e-06 0.000166 0.000499</pose>
-          <velocity>0.002454 0.000508 -0.004687 -0.005695 0.024536 3e-06</velocity>
-          <acceleration>-9e-06 -0.011554 -9.93002 -0.503553 -0.004202 0.000432</acceleration>
-          <wrench>-4.6e-05 -0.05777 -49.6501 0 -0 0</wrench>
-        </link>
-        <link name='robot_footprint'>
-          <pose frame=''>-5e-06 -0.002391 0.099995 -2e-06 0.000281 0.000499</pose>
-          <velocity>0.002454 0.000513 -0.0053 -0.005606 0.024536 2e-06</velocity>
-          <acceleration>7e-06 0.000212 -9.7963 -0.323492 0.002108 -0.000435</acceleration>
-          <wrench>0.000102 0.003199 -147.924 0 -0 0</wrench>
-        </link>
-      </model>
-
-
       <model name='my_white_ball'>
         <pose frame=''>-4.7085 4.25284 0.1 0 -0 0</pose>
         <scale>1 1 1</scale>
