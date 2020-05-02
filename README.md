@@ -1,9 +1,9 @@
 # Home_service_robot_1
 A robot capable of executing SLAM and navigating to waypoints to pickup or deliver objects
 
-![Screenshot](img/Screenshot from 2020-05-03 01-05-13.png)
+![Screenshot](img/home_service_robot_picking_package.png)
 
-![Screenshot](img/Screenshot from 2020-05-03 01-07-08.png)
+![Screenshot](img/home_service_robot_dropping_package.png)
 ## Topics covered
 
   - SLAM (Simultaneous Localisation and Mapping)
