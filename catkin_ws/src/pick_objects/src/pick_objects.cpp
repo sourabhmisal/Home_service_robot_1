@@ -4,8 +4,11 @@
 
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
 
-double pickUpPoint[3] = {1,0,-1.59};
-double dropOffPoint[3] = {0,1,1};
+double pickUpX = 6;
+double pickUpY = 0;
+double dropOffX = 0;
+double dropOffY = -7;
+
 
 int main(int argc, char** argv){
 
@@ -22,9 +25,9 @@ int main(int argc, char** argv){
   goal.target_pose.header.frame_id = "map";
   goal.target_pose.header.stamp =  ros::Time::now();
 
-  goal.target_pose.pose.position.x = pickUpPoint[0];
-  goal.target_pose.pose.position.y = pickUpPoint[1];
-  goal.target_pose.pose.orientation.w = pickUpPoint[2];
+  goal.target_pose.pose.position.x = pickUpX;
+  goal.target_pose.pose.position.y = pickUpY;
+  goal.target_pose.pose.orientation.w = 1.0;
 
   ROS_INFO("Sending pick up point");
   ac.sendGoal(goal);
@@ -38,9 +41,9 @@ int main(int argc, char** argv){
 
   ros::Duration(5).sleep();
 
-  goal.target_pose.pose.position.x = dropOffPoint[0];
-  goal.target_pose.pose.position.y = dropOffPoint[1];
-  goal.target_pose.pose.orientation.w = dropOffPoint[2];
+  goal.target_pose.pose.position.x = dropOffX;
+  goal.target_pose.pose.position.y = dropOffY;
+  goal.target_pose.pose.orientation.w = 1.0;
 
   ROS_INFO("Sending drop off point");
   ac.sendGoal(goal);
