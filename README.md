@@ -1,8 +1,10 @@
 # Home_service_robot_1
 A robot capable of executing SLAM and navigating to waypoints to pickup or deliver objects
 
+Home service robot picking virtual object
 ![Screenshot](img/home_service_robot_picking_package.png)
 
+Home service robot dropping virtual object
 ![Screenshot](img/home_service_robot_dropping_package.png)
 ## Topics covered
 
