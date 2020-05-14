@@ -1,5 +1,5 @@
 # Home_service_robot_1
-A robot capable of executing SLAM and navigating to waypoints to pickup or deliver objects
+A turtlesim robot capable of executing SLAM and navigating to waypoints to pickup or deliver objects in virtual world (Gazebo)
 
 Home service robot picking virtual object
 ![Screenshot](img/home_service_robot_picking_package.png)
